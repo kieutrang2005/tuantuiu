@@ -1,0 +1,114 @@
+h1 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-image: linear-gradient(90deg, rgb(170, 78, 170), rgb(20, 20, 148));
+  color: #fff;
+  text-align: center; /*căn lề*/
+  /*border: 3px solid white;*/
+  font-size: 40px; /*cỡ chữ*/
+  font-weight: 100px; /*in đậm*/
+  font-style: italic; /*in nghiêng*/
+  text-transform: capitalize; /* vt chữ hoa*/
+  margin: 0 auto;
+  border-radius: 30px;
+  position: sticky;
+  top: 0;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+.name {
+  width: 200px;
+}
+
+main {
+  /* chỉnh những cái còn lợi*/
+  color: #fff;
+  font-style: italic;
+  background: #5f9eaf;
+  background-size: cover;
+  word-break: break-all;
+  padding-bottom: 50px;
+}
+
+body {
+  font-family: "Merriweather";
+  word-break: break-all;
+}
+
+.dau label {
+  font-size: large;
+}
+
+.dau {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: 10px;
+}
+
+img {
+  object-fit: cover;
+  border-radius: 30px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  transition: 0.5s;
+}
+
+.lai {
+  padding: 5px;
+  text-align: center;
+  font-size: 30px;
+  background-image: linear-gradient(
+    90deg,
+    rgb(103, 103, 202),
+    rgb(21, 106, 163)
+  );
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  transition: 0.5s;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.lai:hover {
+  color: rgb(8, 66, 104);
+  background: rgb(131, 131, 189);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #37393d;
+  padding: 30px;
+}
+
+.footer h2,
+li,
+a {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.linkfb {
+  color: #5f9eaf;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+}
+
+select {
+  width: 100px;
+}

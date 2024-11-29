@@ -1,0 +1,38 @@
+/* PC */
+@media (min-width: 992px) {
+  /* từ 992px trở lên thì áp dụng */
+}
+
+/* tablet & mobile */
+@media (max-width: 991.98px) {
+  /* từ 991.98px trở xuống thì áp dụng */
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* ----------------------------------mobile------------------------------------------- */
+@media (max-width: 767.98px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  .imgs {
+    max-width: 300px;
+  }
+
+  .lai {
+    font-style: 25px;
+    width: 351px;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  #hoi {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+}
